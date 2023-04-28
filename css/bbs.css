@@ -1,0 +1,44 @@
+@charset "UTF-8"; 
+
+/* reset */
+*{margin: 0; padding: 0;}
+body{background-color: #ddd;}
+a {text-decoration: none;}
+.blind {position: absolute;top: 0; left: 0;
+text-indent: -99999999999999999px;
+width: 0; height: 0; font-size: 0;
+}
+
+#wrap {width: 1000px; margin: 0 auto;box-shadow: 0 0 20px rgba(0,0,0,0.2);}
+header {width: 1000px; height:170px; background-color: #000; margin: 0 auto;}
+/* bbs */
+#contents {
+    position: relative;
+    width: 1000px; height:auto;  
+background-color: #fff;
+margin:0 auto; padding-top: 130px;
+padding-bottom: 100px; 
+}
+#contents h2 {position: absolute; top: 50px;left: 100px; font-size: 30px;}
+#contents table {width: 800px;
+margin: 0 auto; font-size: 13px;
+border-top:2px solid #a3a3a3; 
+border-bottom:2px solid #a3a3a3; 
+/* 표 붙이기 */
+border-collapse:collapse;
+}
+#contents table tr th {height: 31px;
+background-color: #000;
+}
+
+#contents table tr td {height: 31px;
+border-bottom: 1px solid #e2e2e2;
+text-align: center;
+}
+#contents table tr td.title {text-align: left;}
+#contents table tr td.title a {color: #333;}
+#contents table tr td.title a:hover {text-decoration: underline;}
+#contents table tr td.gray {color: #888888;}
+#contents table tr td img {vertical-align: top;}
+footer{width: 1000px;height: 70px; background-color: #000; margin: 0 auto; }
+footer p {text-align: center; color: #fff;padding-top: 25px; font-size: 12px;}
