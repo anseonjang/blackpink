@@ -39,7 +39,7 @@ text-align: center;
 }
 #contents table tr td.title {text-align: left;}
 #contents table tr td.title a {color: #333;}
-#contents table tr td.title a:hover {text-decoration: underline;}
+#contents table tr td.title a:hover {text-decoration: underline; color: #ff3f90;}
 #contents table tr td.gray {color: #888888;}
 #contents table tr td img {vertical-align: top;}
 footer{width: 1000px;height: 50px; background-color: #000; margin: 0 auto; }
