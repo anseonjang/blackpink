@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div(block),span(inline)</title>
+    <style>
+        div {width: 100px; height: 30px;  line-height: 30px;
+            margin: 30px; background-color: pink;
+        text-align: center;  
+                
+        /* cursor: pointer; 커서 - 손가락표시 */
+        /* display: none;가리기 */
+        /* display: block; 보기 */ 
+        /* display: inline;  인라인 */ 
+        /* background-color: skyblue; */ 
+        }
+        
+        span {width: 200px; height: 30px;  line-height: 30px;
+            margin: 30px; background-color: pink;
+        text-align: center;  
+        display: block;
+        /* display: inline; */
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <!-- inline은 가로 세로 사이즈 불가능 -->
+    <!-- block은 가로 세로 사이즈 가능 -->
+    <div>ANSEON</div>
+    <!-- div*3{ANSEON} -->
+    <div>ANSEON</div>
+    <div>ANSEON</div>
+    <div>ANSEON</div>
+
+   
+    <!-- span*3{JANG AN SEON} -->
+    <span>JANG AN SEON</span><span>JANG AN SEON</span><span>JANG AN SEON</span>
+</body>
+</html>
